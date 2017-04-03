@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Diving</string>
+
+    <!--Texts of Headings -->
+    <string name="heading_1">can you take pictures under the water?</string>
+    <string name="heading_2">test your knowledge</string>
+
+    <!--Texts of questions 1 - 5 -->
+    <string name="text_otazka_1">Underwater devices use a uniform system of framing (check if it is true).</string>
+    <string name="text_otazka_2">With some cameras, you can avoid the parallax error by using the correction marks in the viewfinder (check if it is true).</string>
+    <string name="text_otazka_3">When you want to take picture under the water you should...</string>
+    <string name="text_otazka_4">When you want to take picture close to the bottom you should...</string>
+    <string name="text_otazka_5">For most types of underwater photography is the best angle (insert either upward or horizontal).</string>
+
+    <!--Texts of Radiobuttons-->
+    <string name="text_radiobutton_ot.3a">a. hold the camera with both hands, if possible. </string>
+    <string name="text_radiobutton_ot.3b">b. always have one hand free for adjusting buoyancy.</string>
+    <string name="text_radiobutton_ot.4a">a. avoid fins movement.</string>
+    <string name="text_radiobutton_ot.4b">b. keep a stable position by using fins.</string>
+
+
+    </resources>

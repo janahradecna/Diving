@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.diving.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/shark" />
+
+        <TextView
+            style="@style/AppTextAllCaps"
+            android:text="@string/heading_1"
+           />
+
+        <TextView
+            style="@style/AppTextAllCaps"
+            android:text="@string/heading_2"
+             />
+
+        <TextView
+            style="@style/AppText"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Question 1"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:text="@string/text_otazka_1"
+            />
+
+        <CheckBox
+            style="@style/AppCheckBox"
+            android:text="It is true."
+            android:id="@+id/checkBoxQuestion1"
+            />
+
+        <View
+            style="@style/AppLine"
+             />
+
+        <TextView
+            style="@style/AppText"
+            android:textStyle="bold"
+            android:text="Question 2"
+            android:id="@+id/textView4" />
+
+        <TextView
+            style="@style/AppText"
+            android:text="@string/text_otazka_2"
+            />
+
+        <CheckBox
+            style="@style/AppCheckBox"
+            android:text="It is true."
+            android:id="@+id/checkBoxQuestion2"/>
+
+        <View
+            style="@style/AppLine"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:textStyle="bold"
+            android:text="Question 3"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:text="@string/text_otazka_3"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rgroup1">
+
+
+        <RadioButton
+            style="@style/AppRadiobutton"
+            android:text="@string/text_radiobutton_ot.3a"
+            android:id="@+id/answer3a"
+           />
+
+        <RadioButton
+            style="@style/AppRadiobutton"
+            android:text="@string/text_radiobutton_ot.3b"
+            android:id="@+id/answer3b"
+            />
+        </RadioGroup>
+
+        <View
+            style="@style/AppLine"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:textStyle="bold"
+            android:text="Question 4"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:text="@string/text_otazka_4"
+            android:id="@+id/textView2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rgroup2">
+
+
+            <RadioButton
+                style="@style/AppRadiobutton"
+                android:text="@string/text_radiobutton_ot.4a"
+                android:id="@+id/answer4a"
+                />
+
+            <RadioButton
+                style="@style/AppRadiobutton"
+                android:text="@string/text_radiobutton_ot.4b"
+                android:id="@+id/answer4b"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/AppLine"
+            />
+
+        <TextView
+            style="@style/AppText"
+            android:textStyle="bold"
+            android:text="Question 5"
+            android:id="@+id/textView" />
+
+        <TextView
+            style="@style/AppText"
+            android:text="@string/text_otazka_5"
+             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/answer5"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <Button
+        style="@style/YellowButton"
+        android:layout_marginLeft="16dp"
+        android:text="Check the answers"
+        android:id="@+id/vyhodnotit"
+        android:onClick="vyhodnotit"
+         />
+
+    <Button
+        style="@style/YellowButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Reset answers"
+        android:id="@+id/smazat"
+        android:onClick="smazat"
+       />
+</RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
